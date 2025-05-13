@@ -8,7 +8,7 @@ app= FastAPI(
     description="Realestate price prediction"
 )
 
-with open("C:/Users/90584/OneDrive/Desktop/Data Science/ml_pipeline/model.pkl","rb") as f:
+with open("model.pkl","rb") as f:
     model=pickle.load(f)
     
 
